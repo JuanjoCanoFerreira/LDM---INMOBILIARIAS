@@ -1,0 +1,88 @@
+:root{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	background-color: black;
+	background-image: url("/Contacto/assets/imgs/Foto_Contacto.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+  
+}
+
+h1{
+	font-family: 'Shantell Sans', cursive;
+	background-color:hsl(133, 53%, 70%);
+	width:510px;
+	text-align: center;
+	margin: auto;
+	border-radius: 50px;	
+}
+
+.mapa{
+	text-align-last:initial;
+}
+
+iframe{
+	width:15rem;
+	margin:auto;
+
+}
+.form1{
+	width:350px;
+	padding: 20px;
+	border-radius: 50px;
+	margin:auto;
+	background-color:hsl(133, 53%, 70%);
+	margin-top: 30px;
+}
+
+.form2{
+	font-family:fantasy;
+	width:400px;
+	padding: 20px;
+	border-radius: 50px;
+	margin:auto;
+	background-color:hsl(167, 87%, 54%);
+	margin-top: 30px;
+}
+
+label{
+	width:72px;
+	font-weight:bold;
+	font-family: 'Shantell Sans', cursive;
+}
+
+ input[type="text"],
+ input[type="email"], 
+ input[type="tel"]{
+	
+	width:280px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	font-family: 'Shantell Sans', cursive;
+}
+
+ input[type="submit"]{
+	width:100%;
+	padding: 10px;
+	border:1px solid #000;
+	color:#fff;
+	background-color:#000;
+	border-radius: 50px;
+}
+
+.INDEX{
+    width:25%;
+    padding: 10px;
+    border:1px solid #000;
+    color:#fff;
+    background-color:hsl(0, 61%, 40%);
+    border-radius: 50px;
+    text-decoration: none;
+}

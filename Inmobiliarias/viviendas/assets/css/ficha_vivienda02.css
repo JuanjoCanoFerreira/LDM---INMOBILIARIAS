@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../imgs/vivienda02.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: rgb(17, 241, 137);
+    width: 55%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: hsl(61, 83%, 63%);
+}
+
+article{
+    background-color: rgb(163, 193, 221);
+    padding-right: 5rem;
+    border: 1px solid black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.NuevaVivienda{
+    width:25%;
+    padding: 10px;
+    border:1px solid #000;
+    color:#fff;
+    background-color:hsl(78, 61%, 40%);
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+object{
+    width: 20rem;
+}
+
+footer{
+    width: 18%;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+

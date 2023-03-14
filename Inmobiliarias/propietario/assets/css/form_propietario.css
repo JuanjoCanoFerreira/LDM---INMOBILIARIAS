@@ -1,0 +1,79 @@
+:root{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	background-color: black;
+	background-image: url("/propietario/assets/imgs/FondoFormularioPropietario.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+    background-position: left top;
+}
+
+h1{
+	font-family: 'Shantell Sans', cursive;
+	background-color:hsl(36, 94%, 50%);
+	width:510px;
+	text-align: center;
+	margin: auto;
+	border-radius: 50px;
+	
+}
+form{
+	width:300px;
+	padding:16px;
+	border-radius: 50px;
+	margin:auto;
+	background-color:hsl(36, 94%, 50%);
+	margin-top: 30px;
+}
+
+label{
+	width:72px;
+	font-weight:bold;
+	font-family: 'Shantell Sans', cursive;
+}
+
+ input[type="text"],
+ input[type="email"], 
+ input[type="tel"]{
+	
+	width:280px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	font-family: 'Shantell Sans', cursive;
+}
+
+ input[type="submit"]{
+	width:100%;
+	padding: 10px;
+	border:1px solid #000;
+	color:#fff;
+	background-color:#000;
+	border-radius: 50px;
+}
+
+.ListadoPropietario{
+    width:25%;
+    padding: 10px;
+    border:1px solid #000;
+    color:#fff;
+    background-color:rgb(40, 79, 164);
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+footer{
+	position: fixed;
+	padding: 9rem;
+	margin: 15rem 0 0 0;
+	width: 1650px;
+	background-color: black;
+	color:#fff;
+	vertical-align:text-top;
+}

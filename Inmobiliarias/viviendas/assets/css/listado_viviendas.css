@@ -1,0 +1,68 @@
+body{
+    background-color: #f7b34f;
+    font-family: Arial;
+}
+
+#main-container{
+    margin: 150px 150px ;
+    width: 600px;
+}
+
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: hsl(0, 0%, 100%);
+    width: 55%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #943333;
+}
+
+table{
+    background-color: whitesmoke;
+    text-align: left;
+    width: 400px;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: solid 1px black;
+    padding: 10px;
+}
+
+thead{
+    background-color:  #943333;
+    border-bottom: solid black;
+}
+
+tr:nth-child(even){
+    background-color:#ddd;
+}
+
+.ListadoViviendas{
+    width: 20%;
+    padding: 10px;
+    border:1px solid #000;
+    color:#fff;
+    background-color:#943333;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+

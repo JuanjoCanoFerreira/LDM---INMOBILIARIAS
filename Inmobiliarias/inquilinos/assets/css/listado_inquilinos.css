@@ -1,0 +1,66 @@
+body{
+    background-color: hsl(187, 47%, 26%);
+    font-family: Arial;
+}
+
+#main-container{
+    margin: 150px auto;
+    width: 600px;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: hsl(0, 0%, 100%);
+    width: 55%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: hsl(209, 83%, 63%);
+}
+
+table{
+    background-color: whitesmoke;
+    text-align: left;
+    width: 400px;
+    border-collapse: collapse;
+}
+
+td, th{
+    border: solid 1px black;
+    padding: 10px;
+}
+
+thead{
+    background-color: #51e6c5;
+    border-bottom: solid black;
+}
+
+tr:nth-child(even){
+    background-color:#ddd;
+}
+
+.NuevoInquilino{
+    width: 20%;
+    padding: 10px;
+    border:1px solid #000;
+    color:#fff;
+    background-color:#8b93d6;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+}

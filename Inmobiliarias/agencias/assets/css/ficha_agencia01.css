@@ -1,0 +1,65 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url("/agencias/assets/imgs/ficha_agencia01.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background: hsl(342, 63%, 54%);
+    width: 55%;
+    margin: auto;
+    text-align: center;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:black;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: hsl(209, 83%, 63%);
+}
+
+article{
+    padding-right: 5rem;
+    border: 5px black;
+    width: 170px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    background-color:#7d9df7
+}
+
+
+.NuevaAgencia{
+    width:25%;
+    padding: 10px;
+    border:1px solid #000;
+    color:#fff;
+    background-color:rgb(40, 79, 164);
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+footer{
+    width: 18%;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+

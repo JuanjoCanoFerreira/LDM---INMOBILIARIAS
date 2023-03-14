@@ -1,0 +1,76 @@
+:root{
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	background-color: black;
+	background-image: url("/agencias/assets/imgs/pexels-pixabay-461940.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+    background-position: left top;
+}
+
+h1{
+	font-family: 'Shantell Sans', cursive;
+	background-color:hsl(192, 53%, 70%);
+	width:510px;
+	text-align: center;
+	margin: auto;
+	border-radius: 50px;
+	
+}
+form{
+	width:300px;
+	padding:16px;
+	border-radius: 50px;
+	margin:auto;
+	background-color:hsl(192, 53%, 70%);
+	margin-top: 30px;
+}
+
+label{
+	width:72px;
+	font-weight:bold;
+	font-family: 'Shantell Sans', cursive;
+}
+
+ input[type="text"],
+ input[type="email"], 
+ input[type="tel"]{
+	
+	width:280px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	font-family: 'Shantell Sans', cursive;
+}
+
+ input[type="submit"]{
+	width:100%;
+	padding: 10px;
+	border:1px solid #000;
+	color:#fff;
+	background-color:#000;
+	border-radius: 50px;
+}
+
+.NuevaAgencia{
+    width:25%;
+    padding: 10px;
+    border:1px solid #000;
+    color:#fff;
+    background-color:hsl(0, 61%, 40%);
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+footer{
+	position: fixed;
+	background-color: rgb(2, 2, 2);
+	color:#fff;
+	vertical-align:text-top;
+}

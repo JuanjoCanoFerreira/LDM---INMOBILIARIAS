@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Vivienda</title>
+    <link rel="stylesheet" href="./assets/css/form_viviendas.css">
+</head>
+<body>
+        <h1>Formulario Viviendas</h1>
+    
+        <form>
+            <p><label>🏰IDVivienda: <input type="text" name="IDVivienda" maxlength="60" placeholder="IDVivienda"></label></p>
+            <p><label>🌆calle: <input type="text" name="Nombre" maxlength="20" placeholder="Nombre"></label></p>
+            <p><label>Número: <input type="number" name="Número" placeholder="Número"></label></p>
+            <p><label>Número de habitaciones: <input type="number" name="Número de habitaciones:" placeholder="Número de habitaciones"></label></p>
+            <p><label>Metros cuadrados: <input type="number" name="Metros cuadrados:" placeholder="Metros cuadrados"></label></p>
+            <p><label>Comentarios del cliente:  <input type="text" name="Comentarios del cliente" maxlength="60" placeholder="Comentarios del cliente"></label></p>
+            <p><label>Población: <input type="text" name="Población:" maxlength="50" placeholder="Población:"></label></p>
+            <p><label>Código Postal: <input type="number" name="Código Postal:" placeholder="Código Postal"></label></p>
+            <p><label>Piso: <input type="number" name="Piso"  placeholder="Piso"></label></p>
+            <p><label>Tipo de cocina: <input type="text" name="Tipo de cocina:" maxlength="60" placeholder="Tipo de cocina"></label></p>
+            <p><label>Numero Total de existencias: <input type="number" name="Numero Total de existencias:" placeholder="Numero Total de existencias"></label></p>
+            <fieldset>
+                <legend>Existencia de terraza:</legend>
+                    <p><label><input type="checkbox" name="Existencia de terraza:" value="Si">Si</label></p>
+                    <p><label><input type="checkbox" name="Existencia de terraza:" value="No">No</label></p>
+                </fieldset>
+            <fieldset>
+                <legend>Nuevo a estrenar:</legend>
+                    <p><label><input type="checkbox" name="Nuevo a estrenar:" value="Si">Si</label></p>
+                    <p><label><input type="checkbox" name="Nuevo a estrenar:" value="No">No</label></p>
+                </fieldset>
+            <p><input type="submit" value="Enviar"></p>
+            <p><input type="submit" value="Limpiar Formulario"></p>
+        </form>
+    
+    
+        <a target="_blank" class="ListadoViviendas" href="../viviendas/listado_viviendas.html">Listado viviendas</a>
+    
+        <br>
+        <br>
+        <br>
+    
+        <footer>
+            <address>
+                Juan José<br>
+                Cano Ferreira<br>
+                8302<br>
+                Juanjosecanoferreira_8302@escuelaces.net<br>
+            </address>
+        </footer>
+
+</body>
+</html>
